@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thezynocta.co/sitemap.xml

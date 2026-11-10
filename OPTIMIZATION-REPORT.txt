@@ -1,0 +1,29 @@
+THE ZYNOCTA CO. — RESPONSIVE & PERFORMANCE UPDATE
+
+Scope
+- Updated all 108 HTML pages in the supplied project.
+- Preserved existing page content, branding, navigation, inline page logic, and existing assets.
+- Added one shared responsive/performance stylesheet and one small deferred capability-adaptation script.
+
+Implemented
+- Added a shared CSS safety layer for fluid widths, intrinsic media sizing, min-width handling in layout regions, touch target sizing, small-screen typography, safe wrapping, and reduced-motion preferences.
+- Added mobile-first safeguards for narrow viewports (including 240–360px), touch input, and large displays without device-model-specific CSS.
+- Replaced blocking Google Fonts CSS @import usage with stylesheet links and added font-origin preconnect hints while retaining the existing font families.
+- Added native lazy loading and asynchronous decoding to non-critical images after the first three image elements on each page; existing explicit loading/fetchpriority policies were retained.
+- Added a deferred, one-time performance profile selector. It uses Save-Data, coarse pointer, deviceMemory, and hardwareConcurrency as hints; unknown hardware defaults to the standard profile. Low-capability devices receive lighter decorative effects. No continuous benchmarking or polling is used.
+- Respects prefers-reduced-motion and retains existing functionality and page-specific animation code.
+
+Validation performed
+- Confirmed 108 HTML pages contain the shared stylesheet and adaptive script.
+- Confirmed all referenced local stylesheet/script assets exist.
+- Confirmed all checked local image/media references resolve.
+- Parsed the shared CSS with tinycss2: no CSS parse errors.
+- Ran Node syntax checks on the new adaptive script and existing main.js/tools.js.
+- HTMLParser checks completed for the page set; no parsing exceptions were raised.
+
+Not verified / limitations
+- A real browser binary was not available in the execution environment, so Playwright visual emulation, interactive browser testing, Lighthouse, and console/network runtime checks could not be run.
+- No physical 1GB RAM devices or cross-browser device lab were available. The changes are capability-adaptive, not proof of testing every manufacturer/model/browser version.
+- Core Web Vitals and Lighthouse scores must be measured on deployed pages using representative devices and real network conditions.
+- The existing homepage cinematic scene photography remains on its original third-party Figma host as documented in DEVICE-PERFORMANCE-NOTES.txt; local export/self-hosting is still recommended for reliability and network performance.
+- No guarantee is made for browsers too old to support the site's existing baseline features.

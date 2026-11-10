@@ -1,0 +1,682 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/blog",
+      "destination": "/blogs",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/blogs",
+      "permanent": true
+    },
+    {
+      "source": "/services/ai-business-automation",
+      "destination": "/services/ai-and-business-automation",
+      "permanent": true
+    },
+    {
+      "source": "/services/ai-business-automation/",
+      "destination": "/services/ai-and-business-automation",
+      "permanent": true
+    },
+    {
+      "source": "/services/branding-creative-design",
+      "destination": "/services/branding-and-creative-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/branding-creative-design/",
+      "destination": "/services/branding-and-creative-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/business-systems-enterprise",
+      "destination": "/services/business-systems-and-enterprise-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/business-systems-enterprise/",
+      "destination": "/services/business-systems-and-enterprise-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/design-systems",
+      "destination": "/services/design-systems-and-component-libraries",
+      "permanent": true
+    },
+    {
+      "source": "/services/design-systems/",
+      "destination": "/services/design-systems-and-component-libraries",
+      "permanent": true
+    },
+    {
+      "source": "/services/ecommerce-solutions",
+      "destination": "/services/e-commerce-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/ecommerce-solutions/",
+      "destination": "/services/e-commerce-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/product-design",
+      "destination": "/services/product-design-services-for-digital-products",
+      "permanent": true
+    },
+    {
+      "source": "/services/product-design/",
+      "destination": "/services/product-design-services-for-digital-products",
+      "permanent": true
+    },
+    {
+      "source": "/services/seo",
+      "destination": "/services/search-engine-optimization-seo",
+      "permanent": true
+    },
+    {
+      "source": "/services/seo/",
+      "destination": "/services/search-engine-optimization-seo",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-design",
+      "destination": "/services/ui-ux-design-services-for-websites-and-apps",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-design/",
+      "destination": "/services/ui-ux-design-services-for-websites-and-apps",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design",
+      "destination": "/services/ui-ux-and-product-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/",
+      "destination": "/services/ui-ux-and-product-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/user-journey-mapping",
+      "destination": "/services/user-journey-mapping-and-experience-flows",
+      "permanent": true
+    },
+    {
+      "source": "/services/user-journey-mapping/",
+      "destination": "/services/user-journey-mapping-and-experience-flows",
+      "permanent": true
+    },
+    {
+      "source": "/services/user-research",
+      "destination": "/services/user-research-services-and-insights",
+      "permanent": true
+    },
+    {
+      "source": "/services/user-research/",
+      "destination": "/services/user-research-services-and-insights",
+      "permanent": true
+    },
+    {
+      "source": "/services/ux-audits",
+      "destination": "/services/ux-audit-and-usability-review-services",
+      "permanent": true
+    },
+    {
+      "source": "/services/ux-audits/",
+      "destination": "/services/ux-audit-and-usability-review-services",
+      "permanent": true
+    },
+    {
+      "source": "/services/video-content-production",
+      "destination": "/services/video-and-content-production",
+      "permanent": true
+    },
+    {
+      "source": "/services/video-content-production/",
+      "destination": "/services/video-and-content-production",
+      "permanent": true
+    },
+    {
+      "source": "/services/web-software-development",
+      "destination": "/services/web-and-software-development",
+      "permanent": true
+    },
+    {
+      "source": "/services/web-software-development/",
+      "destination": "/services/web-and-software-development",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-app-interface-design",
+      "destination": "/services/website-and-mobile-app-interface-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-app-interface-design/",
+      "destination": "/services/website-and-mobile-app-interface-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/wireframing-prototyping",
+      "destination": "/services/wireframing-and-prototyping-services",
+      "permanent": true
+    },
+    {
+      "source": "/services/wireframing-prototyping/",
+      "destination": "/services/wireframing-and-prototyping-services",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-development",
+      "destination": "/services/web-and-software-development",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-development/",
+      "destination": "/services/web-and-software-development",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-design",
+      "destination": "/services/web-and-software-development",
+      "permanent": true
+    },
+    {
+      "source": "/services/website-design/",
+      "destination": "/services/web-and-software-development",
+      "permanent": true
+    },
+    {
+      "source": "/services/app-development",
+      "destination": "/services/web-and-software-development",
+      "permanent": true
+    },
+    {
+      "source": "/services/app-development/",
+      "destination": "/services/web-and-software-development",
+      "permanent": true
+    },
+    {
+      "source": "/services/marketing",
+      "destination": "/services/branding-and-creative-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/marketing/",
+      "destination": "/services/branding-and-creative-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/video-editing",
+      "destination": "/services/video-and-content-production",
+      "permanent": true
+    },
+    {
+      "source": "/services/video-editing/",
+      "destination": "/services/video-and-content-production",
+      "permanent": true
+    },
+    {
+      "source": "/services/ecommerce",
+      "destination": "/services/e-commerce-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/ecommerce/",
+      "destination": "/services/e-commerce-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/crm",
+      "destination": "/services/business-systems-and-enterprise-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/crm/",
+      "destination": "/services/business-systems-and-enterprise-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/erm",
+      "destination": "/services/business-systems-and-enterprise-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/erm/",
+      "destination": "/services/business-systems-and-enterprise-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/hrm",
+      "destination": "/services/business-systems-and-enterprise-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/hrm/",
+      "destination": "/services/business-systems-and-enterprise-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/services/ai-automation",
+      "destination": "/services/ai-and-business-automation",
+      "permanent": true
+    },
+    {
+      "source": "/services/ai-automation/",
+      "destination": "/services/ai-and-business-automation",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/ux-audits",
+      "destination": "/services/ux-audit-and-usability-review-services",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/ux-audits/",
+      "destination": "/services/ux-audit-and-usability-review-services",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/design-systems",
+      "destination": "/services/design-systems-and-component-libraries",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/design-systems/",
+      "destination": "/services/design-systems-and-component-libraries",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/user-research",
+      "destination": "/services/user-research-services-and-insights",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/user-research/",
+      "destination": "/services/user-research-services-and-insights",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/ui-ux-design",
+      "destination": "/services/ui-ux-design-services-for-websites-and-apps",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/ui-ux-design/",
+      "destination": "/services/ui-ux-design-services-for-websites-and-apps",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/wireframing-prototyping",
+      "destination": "/services/wireframing-and-prototyping-services",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/wireframing-prototyping/",
+      "destination": "/services/wireframing-and-prototyping-services",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/product-design",
+      "destination": "/services/product-design-services-for-digital-products",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/product-design/",
+      "destination": "/services/product-design-services-for-digital-products",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/website-app-interface-design",
+      "destination": "/services/website-and-mobile-app-interface-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/website-app-interface-design/",
+      "destination": "/services/website-and-mobile-app-interface-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/user-journey-mapping",
+      "destination": "/services/user-journey-mapping-and-experience-flows",
+      "permanent": true
+    },
+    {
+      "source": "/services/ui-ux-product-design/user-journey-mapping/",
+      "destination": "/services/user-journey-mapping-and-experience-flows",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/ux-mistakes-that-cost-you-customers",
+      "destination": "/blogs/seven-ux-mistakes-that-quietly-cost-you-customers",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/ux-mistakes-that-cost-you-customers/",
+      "destination": "/blogs/seven-ux-mistakes-that-quietly-cost-you-customers",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/video-and-motion-for-brands",
+      "destination": "/blogs/why-video-and-motion-belong-in-your-marketing-mix",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/video-and-motion-for-brands/",
+      "destination": "/blogs/why-video-and-motion-belong-in-your-marketing-mix",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/how-to-plan-a-website-that-converts",
+      "destination": "/blogs/how-to-plan-a-website-that-turns-visitors-into-enquiries",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/how-to-plan-a-website-that-converts/",
+      "destination": "/blogs/how-to-plan-a-website-that-turns-visitors-into-enquiries",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/where-to-start-with-business-automation",
+      "destination": "/blogs/where-to-start-with-ai-and-business-automation",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/where-to-start-with-business-automation/",
+      "destination": "/blogs/where-to-start-with-ai-and-business-automation",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/what-makes-a-brand-identity-work",
+      "destination": "/blogs/what-makes-a-brand-identity-actually-work",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/what-makes-a-brand-identity-work/",
+      "destination": "/blogs/what-makes-a-brand-identity-actually-work",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/seo-basics-for-small-businesses",
+      "destination": "/blogs/seo-basics-every-small-business-can-start-with-this-month",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/seo-basics-for-small-businesses/",
+      "destination": "/blogs/seo-basics-every-small-business-can-start-with-this-month",
+      "permanent": true
+    },
+    {
+      "source": "/app-development-pricing",
+      "destination": "/pricing/app-development",
+      "permanent": true
+    },
+    {
+      "source": "/app-development-pricing/",
+      "destination": "/pricing/app-development",
+      "permanent": true
+    },
+    {
+      "source": "/ai-automation-pricing",
+      "destination": "/pricing/ai-automation",
+      "permanent": true
+    },
+    {
+      "source": "/ai-automation-pricing/",
+      "destination": "/pricing/ai-automation",
+      "permanent": true
+    },
+    {
+      "source": "/logo-design-pricing",
+      "destination": "/pricing/logo-design",
+      "permanent": true
+    },
+    {
+      "source": "/logo-design-pricing/",
+      "destination": "/pricing/logo-design",
+      "permanent": true
+    },
+    {
+      "source": "/website-design-pricing",
+      "destination": "/pricing/website-design",
+      "permanent": true
+    },
+    {
+      "source": "/website-design-pricing/",
+      "destination": "/pricing/website-design",
+      "permanent": true
+    },
+    {
+      "source": "/digital-marketing-pricing",
+      "destination": "/pricing/digital-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/digital-marketing-pricing/",
+      "destination": "/pricing/digital-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/motion-graphics-pricing",
+      "destination": "/pricing/motion-graphics",
+      "permanent": true
+    },
+    {
+      "source": "/motion-graphics-pricing/",
+      "destination": "/pricing/motion-graphics",
+      "permanent": true
+    },
+    {
+      "source": "/content-writing-pricing",
+      "destination": "/pricing/content-writing",
+      "permanent": true
+    },
+    {
+      "source": "/content-writing-pricing/",
+      "destination": "/pricing/content-writing",
+      "permanent": true
+    },
+    {
+      "source": "/social-media-management-pricing",
+      "destination": "/pricing/social-media-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/social-media-management-pricing/",
+      "destination": "/pricing/social-media-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/branding-and-print-design-pricing",
+      "destination": "/pricing/branding-print-design",
+      "permanent": true
+    },
+    {
+      "source": "/branding-and-print-design-pricing/",
+      "destination": "/pricing/branding-print-design",
+      "permanent": true
+    },
+    {
+      "source": "/seven-ux-mistakes-that-quietly-cost-you-customers",
+      "destination": "/blogs/seven-ux-mistakes-that-quietly-cost-you-customers",
+      "permanent": true
+    },
+    {
+      "source": "/seven-ux-mistakes-that-quietly-cost-you-customers/",
+      "destination": "/blogs/seven-ux-mistakes-that-quietly-cost-you-customers",
+      "permanent": true
+    },
+    {
+      "source": "/why-video-and-motion-belong-in-your-marketing-mix",
+      "destination": "/blogs/why-video-and-motion-belong-in-your-marketing-mix",
+      "permanent": true
+    },
+    {
+      "source": "/why-video-and-motion-belong-in-your-marketing-mix/",
+      "destination": "/blogs/why-video-and-motion-belong-in-your-marketing-mix",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-plan-a-website-that-turns-visitors-into-enquiries",
+      "destination": "/blogs/how-to-plan-a-website-that-turns-visitors-into-enquiries",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-plan-a-website-that-turns-visitors-into-enquiries/",
+      "destination": "/blogs/how-to-plan-a-website-that-turns-visitors-into-enquiries",
+      "permanent": true
+    },
+    {
+      "source": "/where-to-start-with-ai-and-business-automation",
+      "destination": "/blogs/where-to-start-with-ai-and-business-automation",
+      "permanent": true
+    },
+    {
+      "source": "/where-to-start-with-ai-and-business-automation/",
+      "destination": "/blogs/where-to-start-with-ai-and-business-automation",
+      "permanent": true
+    },
+    {
+      "source": "/what-makes-a-brand-identity-actually-work",
+      "destination": "/blogs/what-makes-a-brand-identity-actually-work",
+      "permanent": true
+    },
+    {
+      "source": "/what-makes-a-brand-identity-actually-work/",
+      "destination": "/blogs/what-makes-a-brand-identity-actually-work",
+      "permanent": true
+    },
+    {
+      "source": "/seo-basics-every-small-business-can-start-with-this-month",
+      "destination": "/blogs/seo-basics-every-small-business-can-start-with-this-month",
+      "permanent": true
+    },
+    {
+      "source": "/seo-basics-every-small-business-can-start-with-this-month/",
+      "destination": "/blogs/seo-basics-every-small-business-can-start-with-this-month",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/legal/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/legal/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/legal/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service/",
+      "destination": "/legal/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions",
+      "destination": "/legal/terms-and-conditions",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions/",
+      "destination": "/legal/terms-and-conditions",
+      "permanent": true
+    },
+    {
+      "source": "/cookies-policy",
+      "destination": "/legal/cookies-policy",
+      "permanent": true
+    },
+    {
+      "source": "/cookies-policy/",
+      "destination": "/legal/cookies-policy",
+      "permanent": true
+    },
+    {
+      "source": "/services/search-engine-optimization-seo",
+      "destination": "/services/digital-marketing/search-engine-optimization-seo",
+      "permanent": true
+    },
+    {
+      "source": "/services/search-engine-optimization-seo/",
+      "destination": "/services/digital-marketing/search-engine-optimization-seo",
+      "permanent": true
+    },
+    {
+      "source": "/services/graphic-designing",
+      "destination": "/services/branding-and-creative-design/graphic-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/graphic-designing/",
+      "destination": "/services/branding-and-creative-design/graphic-design",
+      "permanent": true
+    },
+    {
+      "source": "/services/motion-designing",
+      "destination": "/services/video-and-content-production/motion-graphics",
+      "permanent": true
+    },
+    {
+      "source": "/services/motion-designing/",
+      "destination": "/services/video-and-content-production/motion-graphics",
+      "permanent": true
+    },
+    {
+      "source": "/services/design-systems-and-component-libraries",
+      "destination": "/services/ui-ux-and-product-design/design-systems",
+      "permanent": true
+    },
+    {
+      "source": "/services/design-systems-and-component-libraries/",
+      "destination": "/services/ui-ux-and-product-design/design-systems",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self'"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
