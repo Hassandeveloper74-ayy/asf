@@ -1,0 +1,9 @@
+Homepage process-section rendering fix
+
+- Scoped process-card, navigation, and dot controls to each .f3p-track instance.
+- Supports multiple process tracks without global selector collisions.
+- Initializes the first active card immediately and updates it on scroll/resize.
+- Adds a CSS first-card fallback if JavaScript initialization fails.
+- Adds responsive sizing and safe-area spacing for narrow screens.
+
+Note: the seven cinematic Mostar scene images remain externally hosted at their existing Figma URLs. Their original files are not present in the supplied ZIP, so they cannot be moved to local assets without the exported image files.

@@ -1,0 +1,15 @@
+THE ZYNOCTA CO — DEVICE PERFORMANCE UPDATE
+
+This build adds a shared responsive layer to all 108 HTML pages and a dedicated adaptive rendering layer to the cinematic homepage.
+
+Device strategy:
+- Layouts adapt to available viewport dimensions, safe areas, touch input, and large displays rather than device-brand names.
+- Cinematic scroll sequence remains active on touch devices.
+- Low-capability devices use shorter blur limits, no pointer-follow parallax, and faster scroll interpolation while preserving the same sequence.
+- Native responsive image sizing and lazy loading should be used for non-critical below-the-fold media.
+- Reduced-motion accessibility preference is respected.
+
+Important limitation:
+The seven Mostar cinematic scene images are hosted on raft-blast-61784561.figma.site. They could not be downloaded in this build environment (DNS/network resolution unavailable), so their URLs were preserved. If that host is unreachable from a visitor's network, the browser can only show the local CSS sky fallback, not the original bridge photography. For fully self-hosted, reliable delivery, provide/export those seven source image files and replace the remote URLs with local optimized AVIF/WebP variants.
+
+No website can guarantee identical frame rates on every 1GB RAM device, browser, OS, and 200-inch display. This build uses capability-adaptive rendering and responsive sizing, but real-device QA is still required.
